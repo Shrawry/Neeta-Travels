@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neeta Travels - Exploring Maharashtra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-8 py-4 bg-white shadow-md sticky top-0 z-50">
+        <div class="text-2xl font-bold text-blue-600">Neeta Travels</div>
+        <ul class="hidden md:flex space-x-8 font-medium">
+            <li><a href="#" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#destinations" class="hover:text-blue-600">Destinations</a></li>
+            <li><a href="#about" class="hover:text-blue-600">About</a></li>
+            <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+        <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+        class="h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-16 bg-gradient-to-r from-blue-50 to-blue-100">
+        <div class="max-w-xl">
+            <h1 class="text-5xl font-extrabold text-blue-700 leading-tight mb-4">Travel Maharashtra with Neeta Travels
+            </h1>
+            <p class="text-gray-600 text-lg mb-6">Connecting Mahabaleshwar, Satara, Pune, and Mumbai – enjoy safe,
+                reliable bus services across Maharashtra.</p>
+            <a href="#destinations"
+                class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Explore Routes</a>
+        </div>
+        <img src="https://i.ibb.co/pChKJfy/Neeta-Tours-travels-slider-06.webp" alt="Neeta-Tours-travels-slider-06"
+            border="0"></a>"
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="py-16 px-8 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6 text-blue-600">Our Popular Routes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://i.ibb.co/nMWdrxgn/3-days-mahabaleshwar-top-places-to-visit-header-mahabaleshwar-tourism-jpg.jpg"
+                    alt="3-days-mahabaleshwar-top-places-to-visit-header-mahabaleshwar-tourism-jpg" border="0"></a>
+
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Mahabaleshwar</h3>
+                    <p class="text-gray-600">Our main hub, nestled in lush hills, with lakes and Strawberry farms.</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://i.ibb.co/F4vxznM3/Vie-from-Ajinkyatara-Fort-Satara.webp"
+                    alt="Vie-from-Ajinkyatara-Fort-Satara" border="0"></a>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Satara</h3>
+                    <p class="text-gray-600">Famous for waterfalls, scenic mountains, and historical forts.</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://i.ibb.co/PvHZyhmJ/pune-1.jpg" alt="pune-1" border="0"></a>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Pune</h3>
+                    <p class="text-gray-600">Cultural hub with forts, bustling markets, and vibrant city life.</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://i.ibb.co/WWrs80xm/mumbai-marine-drive-along.jpg" alt="mumbai-marine-drive-along"
+                    border="0"></a>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Mumbai</h3>
+                    <p class="text-gray-600">The city of dreams, beautifully connected with our services daily.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-8 bg-blue-50 text-center">
+        <h2 class="text-3xl font-bold text-blue-700 mb-4">About Neeta Travels</h2>
+        <p class="text-gray-700 max-w-2xl mx-auto">
+            Headquartered in Mahabaleshwar, we are Maharashtra’s trusted bus company connecting Mahabaleshwar, Satara,
+            Pune, and Mumbai with seamless services. Our focus is comfort and reliability.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-8 bg-gray-900 text-white text-center">
+        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+        <p class="text-gray-300 mb-6">Reach out for inquiries or bookings anytime!</p>
+        <div class="max-w-lg mx-auto mb-6">
+            <p><strong>Email:</strong> <a href="mailto:neetatravels1621@gmail.com"
+                    class="text-blue-400 hover:underline">neetatravels1621@gmail.com</a></p>
+            <p><strong>Phone:</strong> 7798920078</p>
+            <p><strong>Main Office:</strong> Mahabaleshwar, Maharashtra</p>
+        </div>
+        <form class="max-w-lg mx-auto flex flex-col space-y-4">
+            <input type="text" placeholder="Your Name" class="p-3 rounded text-gray-800" required />
+            <input type="email" placeholder="Your Email" class="p-3 rounded text-gray-800" required />
+            <textarea placeholder="Your Message" class="p-3 rounded text-gray-800" rows="5"></textarea>
+            <button type="submit" class="bg-blue-600 py-3 rounded-lg hover:bg-blue-700 transition">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-6">
+        <p>© 2025 Neeta Travels | Mahabaleshwar, Maharashtra</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const navLinks = document.querySelector('nav ul');
+        menuBtn.addEventListener('click', () => navLinks.classList.toggle('hidden'));
+    </script>
+</body>
+
+</html>
